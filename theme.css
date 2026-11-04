@@ -1,0 +1,75 @@
+/* Rebecca · soft pastel rose */
+:root {
+  --ink: #503c49;
+  --muted: #8d7181;
+  --orange: #ce8ba7;
+  --orange-dark: #96536f;
+  --line: rgba(172, 112, 143, .15);
+  --card: rgba(255, 249, 252, .80);
+  --shadow: 0 8px 30px rgba(159, 92, 126, .045);
+}
+body {
+  background-color: #fbeef4;
+  background-image:
+    radial-gradient(ellipse at 8% 4%, rgba(251, 212, 230, .64), transparent 48%),
+    radial-gradient(ellipse at 98% 35%, rgba(246, 215, 235, .62), transparent 48%),
+    radial-gradient(ellipse at 42% 88%, rgba(250, 231, 241, .72), transparent 58%);
+}
+.sidebar { background: rgba(255, 248, 252, .76); border-color: rgba(255, 255, 255, .88); }
+.brand-icon, .brand-dot, .nav-link.active .icon, .nav-link.is-active .icon { color: #b97595; }
+.nav-link { color: #8a7081; }
+.nav-link:hover, .settings-button:hover { background: rgba(251, 226, 238, .62); color: #734e64; }
+.nav-link.active, .nav-link.is-active { color: #704c61; background: #f9e3ee; box-shadow: 0 3px 12px #b7779610; }
+.sidebar-eyebrow, .nav-group, .rebecca-kicker { color: #a16d86; }
+.quiet-note, .quiet-note .icon, .settings-button, .local-status { color: #927487; }
+.local-status span { background: #c991aa; }
+.local-status > .bi-pair { background: none; }
+.date-label, .text-button, .icon-button, .hero-copy > p { color: #8a7081; }
+.avatar { color: #955e79; background: #fff7fb; }
+.hero-kicker, .heading-dot { color: #bb7c9b; }
+.greeting-quote { color: #a56583 !important; }
+.focus-card, .quick-capture { background: rgba(255, 249, 252, .86); border-color: #fff; }
+.focus-card:hover { background: #fff7fb; box-shadow: 0 8px 25px #ae6b8b14; }
+.focus-icon { color: #b87c99; background: #f8e1ed; }
+.focus-card > .icon, .focus-card small, .focus-arrow, .capture-icon { color: #ac7f96; }
+.quick-capture input::placeholder, .capture-hint { color: #a38999; }
+.quick-capture:focus-within { box-shadow: 0 0 0 2px #db9bb65c; }
+.capture-add, .btn-primary { background: #b96085; color: #fff; box-shadow: 0 2px 5px #af5d8120; }
+.capture-add:hover, .btn-primary:hover { background: #aa5277; }
+.card-label, .panel-title { color: #7e596e; }
+.card-detail, .module-description, .goal-detail, .section-meta, .baseline-note { color: #917687; }
+.metric-target, .command-shortcuts button, .subtle-link, .panel-footer { color: #a16985; }
+.command-shortcuts code, .panel-add, .panel-title .icon { color: #b08098; }
+.metric-decoration, .row-meta, .small-caps, .sample-badge { color: #a38396; }
+.row-title { color: #624b59; }
+.row-main.is-done .row-title, .list-row.is-done .row-title { color: #af91a2; }
+.check-btn { border-color: #d5afc2; background: #fffbfd; }
+.check-btn:hover { background: #f6d7e7; border-color: #c484a2; }
+.check-btn.is-done { background: #ca89a7; border-color: #ca89a7; }
+.progress-track { background: #efdbe5; }
+.progress-fill { background: linear-gradient(90deg, #d797b4, #c984a4); }
+.quick-entries button { background: rgba(255, 248, 252, .76); border-color: #fff; }
+.quick-entries button:hover { background: #fff8fc; }
+.quick-entries .icon, .quick-entries b { color: #b77a97; }
+.quick-entries span, .page-footer, .page-footer .subtle-link { color: #9b7a8e; }
+.zh-copy { color: #917486; }
+.toast { background: #8b6077; color: #fff8fc; box-shadow: 0 5px 20px #8e4b6c20; }
+.toast .zh-copy { color: #fce2ee; }
+dialog { background: #fff7fb; border-color: #fff; box-shadow: 0 25px 90px #8d4d702e; }
+dialog::backdrop { background: #70465e2b; }
+.dialog-header > .icon-button, .btn-secondary { background: #f3e1eb; color: #8d647d; }
+.btn-secondary:hover { background: #ecd3e1; }
+.btn-danger { background: #f8e3ec; color: #a85b7a; }
+.btn-danger:hover { background: #f2cfdf; }
+dialog p, dialog label, .field, .muted, .modal-row small { color: #927486; }
+dialog input:not([type=checkbox]):not([type=range]), dialog textarea, dialog select,
+.field input:not([type=checkbox]), .field textarea, .field select {
+  background: #fffcfe; border-color: #ead0de; color: #624859;
+}
+.modal-row, .notice-card, .habit-row { border-color: #eed9e4; }
+.modal-row { background: #fffbfd; }
+.tag { background: #f4dfeb; color: #a36d88; }
+.dialog-divider { border-color: #ecd4e0; }
+.storage-note { color: #a08495 !important; }
+.timer-display { color: #8b5d77; }
+input[type=checkbox] { accent-color: #c882a2; }
